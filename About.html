@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigitDyno</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+      <div class="navbar">
+            <a href="index.html"><span><i class="fa-solid fa-house fa-2xl" style="color: #141414;"></i></span>Go to Home</a>
+      </div>
+      <div class="about">
+        <h1 class="About-head">About DigitDyno:</h1><br/>
+        <p class="About">Title: Unveiling DigitDyno: <br>A Simple Calculator with Grand Aspirations
+            In the ever-evolving landscape of web development, I, am an aspiring web developer and AI enthusiast from the Central University of Jammu, introducing DigitDyno—a simple yet promising calculator crafted with a blend of HTML, CSS, and JavaScript.
+            My journey into the world of web development started as a passionate pursuit, fueled by a desire to create practical and user-friendly tools. DigitDyno stands as a testament to my dedication and growing expertise in the field.
+            Currently, DigitDyno is a straightforward calculator capable of handling basic arithmetic operations. However, what sets it apart is my ambitious vision for its future. Inspired by my interest in artificial intelligence, I envision DigitDyno evolving into a powerhouse capable of tackling complex mathematical operations.
+            The calculator's user interface, designed with HTML and CSS, reflects my attention to detail and commitment to creating an intuitive and visually pleasing experience. The seamless integration of JavaScript ensures smooth and responsive functionality, laying the groundwork for future enhancements.
+            As an AI enthusiast, I am exploring the integration of advanced algorithms and machine learning techniques into DigitDyno's capabilities. I envision transforming the calculator into a versatile tool that can handle intricate mathematical tasks, making it indispensable for students, professionals, and enthusiasts alike.
+            My journey is a testament to the spirit of innovation and continuous learning within the web development community. My dedication to refining and expanding DigitDyno showcases the potential of aspiring developers to make a significant impact on the digital landscape.
+            In conclusion, DigitDyno is not just a calculator; it's a symbol of my aspirations and the limitless possibilities that lie ahead for web development. As I continue to hone my skills and explore the realms of artificial intelligence, DigitDyno is poised to become a sophisticated tool that simplifies complex calculations, making mathematics more accessible and enjoyable for users worldwide.</p>
+
+            <div class="calc-body2">
+                <div class="calc-result">
+                         <form name="f1">
+                            <input type="text" class="screen" id="display" disabled>
+                         </form>
+                    
+                </div>
+                <div class="calc-operations1">
+                     <button type="button" class="button"onclick="displayAC()" style="color: gold;">AC</button>
+                     <button type="button" class="button"style="color: gold;">+/-</button>
+                     <button type="button" class="button" onclick="display('%')"style="color: gold;">%</button>
+                     <button type="button" class="button" onclick="display('/')"style="color:orange;">/</button>     
+                </div>
+    
+                <div class="calc-op-2">
+                    <button type="button" class="button" onclick="display('7')">7</button>
+                    <button type="button" class="button" onclick="display('8')">8</button>
+                    <button type="button" class="button" onclick="display('9')">9</button>
+                    <button type="button" class="button" onclick="display('*')"style="color:orange;">X</button>
+                </div>
+                <div class="calc-op-3">
+                     <button type="button" class="button" onclick="display('4')">4</button>
+                     <button type="button" class="button" onclick="display('5')">5</button>
+                     <button type="button" class="button" onclick="display('6')">6</button>
+                     <button type="button" class="button" onclick="display('-')"style="color:orange;">-</button>
+                </div>
+    
+                <div class="calc-op-4">
+                     <button type="button" class="button" onclick="display('1')">1</button>
+                     <button type="button" class="button" onclick="display('2')">2</button>
+                     <button type="button" class="button" onclick="display('3')">3</button>
+                     <button type="button" class="button" onclick="display('+')"style="color:orange;">+</button>
+                </div>
+                <div class="calc-op-5">
+                      <button type="button"  class="button" onclick="clearDisplay()"style="color:orange;">Clr</button>
+                      <button type="button" class="button" onclick="display('0')">0</button>
+                      <button type="button" class="button" onclick="display('.')">.</button>
+                      <button type="button" class="button" onclick="calculate('=')"style="color:orange;">=</button>
+                </div>
+    
+                
+           </div>
+    
+      </div>
+</body>
+</html>

@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Martel Sans', sans-serif;
+}
+.navbar
+{
+  position: relative;
+  background-color: #FC6736;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+}
+.logo
+{
+  position: relative;
+}
+a
+{
+  width: 100px;
+  height: 40px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;  
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+a:hover
+{
+  border: 2px solid black;
+}
+.main
+{
+    top: 50px;
+    height: 100vh;
+    width: 100vw;
+    background-color:#FC6736;
+    display: flex;
+}
+
+.heading
+{
+  position: relative;
+  top: 150px;
+  font-size: 48px;
+  left: 50px;
+}
+.calc-body
+{
+   background-color: black;
+   color:white;
+   width: 30vw;
+   height: 80vh;
+   border: 4px solid black;
+   position: relative;
+   left: 800px;
+   top: 100px;
+   border-radius: 15px;
+   position:absolute;
+}
+
+.calc-result
+{
+    margin-top: 15px;
+}
+.screen
+{
+    width: 30vw;
+    height: 60px;
+    color: white;
+    background-color: rgba(101, 94, 94, 0.308);
+    font-size: 30px;
+    text-align: end;
+}
+
+.calc-operations1
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.calc-op-2
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.calc-op-3
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.calc-op-4
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.calc-op-5
+{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.button
+{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    margin-top: 40px;
+    font-size: 20px;
+    background-color: rgba(91, 87, 87, 0.225);
+    color: white;
+    border-radius: 15px;
+}
+
+.theme
+{
+  position: relative;
+  margin-top: 10px;
+}
+
+/*page2*/
+.About
+{
+  position: relative;
+  left: 10px;
+  width: 120vh;
+  font-size: 15px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 40px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.calc-body2
+{
+  background-color: black;
+   color:white;
+   width: 30vw;
+   height: 80vh;
+   border: 4px solid black;
+   position: relative;
+   left: 930px;
+   top: 200px;
+   border-radius: 15px;
+   position:absolute;
+}
+
+.About-head
+{
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
